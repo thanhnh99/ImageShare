@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 @Data
-@Document(collation = "comment")
+@Document(collection = "comment")
 public class Comment {
     @Id
     private String id;
