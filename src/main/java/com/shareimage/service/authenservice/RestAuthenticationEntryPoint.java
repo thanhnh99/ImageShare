@@ -1,4 +1,4 @@
-package com.shareimage.service;
+package com.shareimage.service.authenservice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

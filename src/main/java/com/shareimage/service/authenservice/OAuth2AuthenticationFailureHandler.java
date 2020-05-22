@@ -1,4 +1,4 @@
-package com.shareimage.service;
+package com.shareimage.service.authenservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-import static com.shareimage.service.HttpCookieOAuth2AuthorizationRequestRepository.REDIRECT_URI_PARAM_COOKIE_NAME;
+import static com.shareimage.service.authenservice.HttpCookieOAuth2AuthorizationRequestRepository.REDIRECT_URI_PARAM_COOKIE_NAME;
 
 @Component
 public class OAuth2AuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {

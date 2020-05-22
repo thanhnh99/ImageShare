@@ -1,4 +1,4 @@
-package com.shareimage.service;
+package com.shareimage.service.authenservice;
 
 import com.shareimage.config.AppProperties;
 import com.shareimage.models.entity.authenentity.BadRequestException;
@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.Optional;
 
-import static com.shareimage.service.HttpCookieOAuth2AuthorizationRequestRepository.REDIRECT_URI_PARAM_COOKIE_NAME;
+import static com.shareimage.service.authenservice.HttpCookieOAuth2AuthorizationRequestRepository.REDIRECT_URI_PARAM_COOKIE_NAME;
 
 @Component
 public class OAuth2AuthenticationSuccessHandler extends SimpleUrlAuthenticationSuccessHandler {

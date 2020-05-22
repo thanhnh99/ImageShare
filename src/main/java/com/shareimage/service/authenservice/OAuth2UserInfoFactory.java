@@ -1,4 +1,4 @@
-package com.shareimage.service;
+package com.shareimage.service.authenservice;
 
 import com.shareimage.models.entity.authenentity.*;
 

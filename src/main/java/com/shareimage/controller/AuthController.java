@@ -8,7 +8,7 @@ import com.shareimage.models.request.authenrequest.SignUpRequest;
 import com.shareimage.models.response.authenrespone.ApiResponse;
 import com.shareimage.models.response.authenrespone.AuthResponse;
 import com.shareimage.repository.IUserRepository;
-import com.shareimage.service.TokenProvider;
+import com.shareimage.service.authenservice.TokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

@@ -1,4 +1,4 @@
-package com.shareimage.service;
+package com.shareimage.service.authenservice;
 
 import io.micrometer.core.instrument.util.StringUtils;
 import org.springframework.security.oauth2.client.web.AuthorizationRequestRepository;
