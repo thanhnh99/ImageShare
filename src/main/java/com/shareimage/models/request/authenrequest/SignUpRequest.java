@@ -1,4 +1,4 @@
-package com.shareimage.model.request;
+package com.shareimage.models.request.authenrequest;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,11 +8,15 @@ import javax.validation.constraints.NotBlank;
 
 @Getter
 @Setter
-public class LoginRequest {
+public class SignUpRequest {
+    @NotBlank
+    private String name;
+
     @NotBlank
     @Email
     private String email;
 
     @NotBlank
     private String password;
+
 }

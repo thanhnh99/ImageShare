@@ -1,4 +1,4 @@
-package com.shareimage.model.response;
+package com.shareimage.models.response.authenrespone;
 
 import lombok.Getter;
 import lombok.Setter;

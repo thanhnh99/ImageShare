@@ -1,4 +1,4 @@
-package com.shareimage.model;
+package com.shareimage.models.entity.authenentity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

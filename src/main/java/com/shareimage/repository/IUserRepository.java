@@ -1,6 +1,6 @@
 package com.shareimage.repository;
 
-import com.shareimage.model.User;
+import com.shareimage.models.entity.authenentity.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

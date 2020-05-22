@@ -1,7 +1,7 @@
 package com.shareimage.service;
 
 import com.shareimage.config.AppProperties;
-import com.shareimage.model.BadRequestException;
+import com.shareimage.models.entity.authenentity.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;

@@ -1,12 +1,12 @@
 package com.shareimage.controller;
 
-import com.shareimage.model.AuthProvider;
-import com.shareimage.model.BadRequestException;
-import com.shareimage.model.User;
-import com.shareimage.model.request.LoginRequest;
-import com.shareimage.model.request.SignUpRequest;
-import com.shareimage.model.response.ApiResponse;
-import com.shareimage.model.response.AuthResponse;
+import com.shareimage.models.entity.authenentity.AuthProvider;
+import com.shareimage.models.entity.authenentity.BadRequestException;
+import com.shareimage.models.entity.authenentity.User;
+import com.shareimage.models.request.authenrequest.LoginRequest;
+import com.shareimage.models.request.authenrequest.SignUpRequest;
+import com.shareimage.models.response.authenrespone.ApiResponse;
+import com.shareimage.models.response.authenrespone.AuthResponse;
 import com.shareimage.repository.IUserRepository;
 import com.shareimage.service.TokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;

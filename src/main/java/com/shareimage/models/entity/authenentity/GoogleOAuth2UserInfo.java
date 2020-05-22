@@ -1,4 +1,4 @@
-package com.shareimage.model;
+package com.shareimage.models.entity.authenentity;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
 package com.shareimage.service;
 
 import com.shareimage.config.AppProperties;
-import com.shareimage.model.UserPrincipal;
+import com.shareimage.models.entity.authenentity.UserPrincipal;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

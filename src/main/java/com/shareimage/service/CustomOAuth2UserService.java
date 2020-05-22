@@ -1,6 +1,6 @@
 package com.shareimage.service;
 
-import com.shareimage.model.*;
+import com.shareimage.models.entity.authenentity.*;
 import com.shareimage.repository.IUserRepository;
 import io.micrometer.core.instrument.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

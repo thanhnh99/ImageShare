@@ -1,8 +1,8 @@
 package com.shareimage.service;
 
-import com.shareimage.model.ResourceNotFoundException;
-import com.shareimage.model.User;
-import com.shareimage.model.UserPrincipal;
+import com.shareimage.models.entity.authenentity.ResourceNotFoundException;
+import com.shareimage.models.entity.authenentity.User;
+import com.shareimage.models.entity.authenentity.UserPrincipal;
 import com.shareimage.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

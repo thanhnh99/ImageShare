@@ -1,6 +1,6 @@
 package com.shareimage.service;
 
-import com.shareimage.model.*;
+import com.shareimage.models.entity.authenentity.*;
 
 import java.util.Map;
 
