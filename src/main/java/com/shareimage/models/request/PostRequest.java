@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ImageRequest {
+public class PostRequest {
     private MultipartFile image ;
     private List<String> tags;
     private String title;

@@ -9,7 +9,7 @@ import java.util.List;
 
 @Data
 @Document(collection = "images")
-public class Image {
+public class Post {
     @Id
     private String id;
 
